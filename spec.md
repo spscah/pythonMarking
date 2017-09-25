@@ -1,18 +1,18 @@
 # Elements
 
-	- NB. The web server will be seperate from the API for marking
-	- Web GUI for uploading work
-	- Web GUI for creating the test data for each function name
-		- Method for generating the questions / test data
-	- Database for storing user data
-	- Python scripts for marking and producing the report
-		- Fuzzy string matching algorithm for finding functions with the same name
-		- Method of extracting relevant functions from the source code
-		- Method of securely running the python script
-			- Maybe via spinning up Docker containers
+- NB. The web server will be seperate from the API for marking
+- Web GUI for uploading work
+- Web GUI for creating the test data for each function name
+	- Method for generating the questions / test data
+- Database for storing user data
+- Python scripts for marking and producing the report
+	- Fuzzy string matching algorithm for finding functions with the same name
+	- Method of extracting relevant functions from the source code
+	- Method of securely running the python script
+		- Maybe via spinning up Docker containers
 	- Php (?) for taking the code snippets for peer review / marking
 
-	(I quite like the idea of a command line tool for running the testing)
+(I quite like the idea of a command line tool for running the testing)
 
 
 ## Who is it for?
