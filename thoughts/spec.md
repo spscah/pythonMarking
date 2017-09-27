@@ -35,3 +35,33 @@ There are several options. The program itself could be run entirely locally on t
 - Seperate web server, this means that the webserver will be hosted seperately from the API
 - If there's too much to do, the first step would be to get the API working, then expand to the web server
 - Once the webserver is up, a method of peer-reviewing the code would be devised. This could be done by showing samples of code and allowing people to give a mark out of 5 and provide comments on it. This could be mandatory or gamified in some way or form
+
+---
+## The actual spec
+### What the teacher uses
+- Web GUI to upload test data, expected results and names of functions to test
+- There will be the option to programatically generate a template .py file to send to students
+- Some form of dashboard to review students' work, with access to the percentage of questions answered
+- If desired, the ability to just manually upload files, rather than getting pupils to upload by themselves
+
+### What the pupils get
+- A authenticated simple-to-use web gui to upload their work
+- Feedback about how their work performed on the test cases (won't actually show the test data)
+	- This will be in the form of either a webpage or a downloadable report (haven't decided which is easiest)
+- An optional extension would be feedback on the coding style which would include the following:
+	- Conformance to PEP 8 (whether function names have underscores, whether variable names are descriptive)
+	- "Quiet" functions, whether the functions are printing or directly taking input
+	- Runtime, this would provide the average time taken per test case
+		- One thing to possibly implement would be runtime comparison with a teacher provided sample
+
+### Other areas that may/may not be implemented based on time
+- A method of peer marking scripts which would work as follows
+	- The first to submit doesn't review anyone's work
+	- The second to submit reviews the first persons
+	- The third reviews some portion of first/second
+
+- The reviewing process would work as follows
+	- The pupil would submit a general comment about the code they're shown
+	- They would then have to provide a mark out of 5 (its out of 5 rather than 10 to reduce the spread and interpretation)
+	- The teacher would be able to view the individual comments and ratings of each pupil
+
