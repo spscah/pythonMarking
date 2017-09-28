@@ -5,3 +5,5 @@ Computer science as a taught subject in schools has been increasing in prevelanc
 However, this provides the teacher with the challenge of marking the individual pieces of work. Not only is it inefficient to load each program by hand and manually enter test data, but it is also potentially a security risk as code is often run on the host system, rather than in a virtualised environment.
 
 This project aims to fill the gap between the prescriptive teaching of codecademy and the hand marking done by teachers. This will be done by providing an automated process to mark, test and run student code.
+
+## Conversations
